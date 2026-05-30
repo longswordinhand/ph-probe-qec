@@ -1,0 +1,39 @@
+{
+    "project": "ph-probe-qec",
+    "manuscript_id": "Paper-I-Methodology",
+    "manifest_version": "1.0",
+    "provenance": {
+        "dataset": {
+            "path": "results/phase2_fss_data.json",
+            "generator": "experiments/phase2_fss_sweep.py",
+            "description": "Multi-distance (d=3 and d=5) parameter sweep with up to 200 trials per point."
+        },
+        "visualizations": [
+            {
+                "figure": "results/multi_distance_threshold_comparison.pdf",
+                "script": "experiments/plot_fss_results.py",
+                "description": "Threshold comparison plot for both d=3 and d=5 showing MWPM failure rate and persistent homology logical lifetime."
+            },
+            {
+                "figure": "results/topological_susceptibility.pdf",
+                "script": "experiments/plot_fss_results.py",
+                "description": "Topological susceptibility variance plot for both d=3 and d=5."
+            }
+        ],
+        "manuscript": {
+            "source": "manuscript/main.tex",
+            "output": "manuscript/main.pdf",
+            "compiler": "manuscript/compile.py",
+            "note": "compile.py regenerates figures from phase2_fss_data.json before pdflatex"
+        }
+    },
+    "environment": {
+        "python_version": "3.12",
+        "core_dependencies": [
+            "numpy",
+            "pymatching",
+            "matplotlib",
+            "gudhi"
+        ]
+    }
+}

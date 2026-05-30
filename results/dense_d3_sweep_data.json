@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "distance": 3,
+        "T": 3,
+        "num_trials_target": 500,
+        "seed": 42,
+        "filtration_threshold": 0.5,
+        "engine": "ExactDPEngine"
+    },
+    "points": {
+        "0.0100": {
+            "p_physical": 0.01,
+            "p_fail_mwpm": 0.018,
+            "avg_L_logical": 5.581704902710929,
+            "std_L_logical": 4.922499690941724,
+            "var_L_logical": 24.231003207321365,
+            "trials_evaluated": 500
+        },
+        "0.0300": {
+            "p_physical": 0.03,
+            "p_fail_mwpm": 0.138,
+            "avg_L_logical": 9.709621127562194,
+            "std_L_logical": 2.7467137445070837,
+            "var_L_logical": 7.544436394264125,
+            "trials_evaluated": 500
+        },
+        "0.0500": {
+            "p_physical": 0.05,
+            "p_fail_mwpm": 0.308,
+            "avg_L_logical": 10.81610623339387,
+            "std_L_logical": 1.144995544550583,
+            "var_L_logical": 1.3110147970406865,
+            "trials_evaluated": 500
+        },
+        "0.0700": {
+            "p_physical": 0.07,
+            "p_fail_mwpm": 0.534,
+            "avg_L_logical": 11.009439316256481,
+            "std_L_logical": 0.5789656779403799,
+            "var_L_logical": 0.3352012562329637,
+            "trials_evaluated": 500
+        },
+        "0.0900": {
+            "p_physical": 0.09,
+            "p_fail_mwpm": 0.614,
+            "avg_L_logical": 10.970346330194273,
+            "std_L_logical": 0.40051516946564886,
+            "var_L_logical": 0.16041240097209744,
+            "trials_evaluated": 500
+        },
+        "0.1100": {
+            "p_physical": 0.11,
+            "p_fail_mwpm": 0.704,
+            "avg_L_logical": 10.84917755891478,
+            "std_L_logical": 0.3030723515896248,
+            "var_L_logical": 0.09185285029806517,
+            "trials_evaluated": 500
+        },
+        "0.1300": {
+            "p_physical": 0.13,
+            "p_fail_mwpm": 0.742,
+            "avg_L_logical": 10.737029057631458,
+            "std_L_logical": 0.24501189674848053,
+            "var_L_logical": 0.06003082954828808,
+            "trials_evaluated": 500
+        },
+        "0.1500": {
+            "p_physical": 0.15,
+            "p_fail_mwpm": 0.788,
+            "avg_L_logical": 10.629359349500925,
+            "std_L_logical": 0.17767708477717534,
+            "var_L_logical": 0.031569146454915556,
+            "trials_evaluated": 500
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+discussion/
+scratch/
+results/phase1_*
+ideas/
+manuscript/
