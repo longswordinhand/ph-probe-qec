@@ -1,0 +1,6 @@
+numpy==2.4.4
+pymatching==2.3.1
+gudhi==3.12.0
+matplotlib==3.10.9
+pytest==9.0.3
+scipy==1.17.1
